@@ -1,0 +1,12 @@
+<!-- Button to add new paragraph -->
+<button onclick="add()">Add Paragraph</button>
+<script>
+function add(){
+// Create new paragraph element
+let p = document.createElement("p");
+// Add text inside paragraph
+p.innerHTML = "New Paragraph Created";
+// Add paragraph to webpage body
+document.body.appendChild(p);
+}
+</script>
